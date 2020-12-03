@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>contact</title>
+<link rel="stylesheet" href="/css/master.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+
+  </head>
+
+
+
+
+
+  <body>
+
+    <nav>
+      <p>JakobReal</p>
+      <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Sozial Newtork</a>
+               <ul>
+                 <li><a href="https://www.twitch.tv/JakobReal">Twitch</a></li>
+                 <li><a href="https://www.youtube.com/JakobReal">YouTube</a></li>
+                 <li><a href="https://www.instagram.de/jakobreal_">Instagram</a></li>
+                 <li><a href="https://discord.gg/KMy8uNb">Discord</a></li>
+               </ul>
+            </li>
+            <li><a href="specs.html">Specs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+
+
+
+
+
+
+
+    <section>
+      <div class="container">
+        <p><h2>CONTACT</h1></p>
+        <form action="https://formspree.io/f/xdopdpkw" method="POST" id="my-form">
+
+          <div class="form-group">
+            <label for="firstName">Vor Name</label>
+            <input type="text" id="firstName" name="firstName">
+          </div>
+
+          <div class="form-group">
+            <label for="latsName">Name</label>
+            <input type="text" id="lastName" name="lastName">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
+
+          <div class="form-group">
+            <label for="massage">Nachricht</label>
+            <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+          </div>
+
+          <button type="submit">Senden</button>
+        </form>
+      </div>
+      <div id="status"></div>
+    </section>
+
+<script src="main.js"></script>
+  </body>
+
+
+</html>
